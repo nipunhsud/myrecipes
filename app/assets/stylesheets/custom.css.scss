@@ -1,2 +1,43 @@
-@import "bootstrap-sprockets";
-@import "bootstrap"
+.navbar {
+ color: black;
+}
+
+@import "bootstrap";
+
+.center{
+    text-align: center
+}
+
+.jumbotron {
+    background-image: asset-url('myrecipes.jpg')
+}
+
+#logo {
+    float: left;
+    font-size: 1.7em;
+    color: #ffffff;
+    text-transform: uppercase;
+    letter-spacing: -1px;
+    font-weight: bold;
+}
+
+#logo:hover {
+    color: #ffffff;
+    text-decoration: none
+}
+
+.jumbotron h1, h2, h3,h4 {
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 30px;
+
+}
+
+.btn-xlarge {
+    background-color: #070707;
+}
+
+.btn-xlarge:hover{
+    color: #ffffff;
+    text-decoration: none;
+}
